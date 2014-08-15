@@ -1,0 +1,31 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+
+/* =============================================================================
+ *   Header
+ * ========================================================================== */
+
+.logo-block {
+   width: 325px;
+   position: absolute;
+   z-index: 1;
+}
+
+#block-search-form {
+   margin-top : 10px;
+   margin-right: 10px;
+   float: right;
+   width: 28%;
+}
+
+#block-search-form .form-text { 
+  width: 75%;
+}

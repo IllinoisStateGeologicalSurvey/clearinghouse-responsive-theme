@@ -1,0 +1,133 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the default font size on small devices */
+html {
+  font-size: 112.5%;
+}
+
+/* =============================================================================
+ *   Header
+ * ========================================================================== */
+
+#block-search-form { 
+  margin-left: 10px;
+  float: left;
+  width: 90%;
+}
+
+#block-search-form .form-text { 
+  width: 50%;  
+  border: none;
+}
+
+#block-search-form .form-text { 
+  width: 60%;
+}
+
+/* =============================================================================
+ *   Misc Global Styles
+ * ========================================================================== */
+
+/*
+ * Main tabs on homepage
+ */
+
+.main-tabs .views-row {
+  float: none;
+  width: 90%;
+  margin: 0;
+}
+
+.main-tabs h2 {
+  font-size: 87.5%;
+}
+
+.partners {
+  float: none;
+  width: 90%;
+}
+
+.partners h2 {
+	font-size: 87.5%;
+}
+
+.whats-new {
+  float: none;
+  width: 90%;
+  margin-left: 0;
+  padding-right: 0;
+  padding-bottom: 75px;
+}
+
+.whats-new h2 {
+	font-size: 87.5%;
+}
+
+
+
+/* =============================================================================
+ *   Primary, Secondary and Menu Bar region menus
+ * ========================================================================== */
+
+/*
+ * Use one of the following id's for granular control:
+ *  - #menu-bar (menu bar region)
+ *  - #primary-menu (main menu)
+ *  - #secondary-menu (secondary/user menu)
+ * You can target all of these with .nav or div[id$="menu-bar"]
+ */
+.nav {
+  position: relative;
+  min-height: 20px;
+}
+
+.nav ul,
+.nav ul.menu {  
+  width: 90%; 
+  min-height: 22px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: auto;
+  border: solid 1px #aaa;
+  background: #eee url('images/icon-menu.png') no-repeat  10px 11px;
+}
+
+.nav li,
+.nav ul.menu li {
+  display: none; /* hide all <li> items */
+  margin: 0;
+}
+
+.nav li a,
+.nav ul.menu li a {
+  display: block;
+  padding: 0px 5px 5px 32px;
+  text-align: left;
+}
+
+.nav ul:hover,
+.nav ul.menu:hover { 
+  background: #eee url('images/icon.png') no-repeat  10px 11px;
+    width: 90%;
+}
+
+.nav ul:hover li,
+.nav ul:focus li,
+.nav ul.menu:hover li,
+.nav ul.menu:focus li { 
+  display: block;
+  width: 90%;
+}
+
+
+.nav .block {
+  margin-bottom: 0;
+}

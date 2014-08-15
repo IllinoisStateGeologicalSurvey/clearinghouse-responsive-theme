@@ -1,0 +1,72 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small devices */
+html {
+  font-size: 100%;
+}
+
+p { font-size: 1.0em;}
+
+
+/* =============================================================================
+ *   Wrappers
+ * ========================================================================== */
+
+
+/* =============================================================================
+ *   Header
+ * ========================================================================== */
+
+#block-search-form {
+   margin-left: 8%;
+   float: left;
+   position: absolute;
+   z-index: 1;
+  width: 25%;
+}
+
+#block-search-form .form-text { 
+  width: 50%;
+}
+
+/* =============================================================================
+ *   Misc Global Styles
+ * ========================================================================== */
+
+/*
+ * Main tabs on homepage
+ */
+
+.main-tabs h2 {
+  font-size: 87.5%;
+}
+
+
+.partners h2 {
+	font-size: 87.5%;
+}
+
+.whats-new h2 {
+	font-size: 87.5%;
+}
+
+
+/* =============================================================================
+ *   Primary, Secondary and Menu Bar region menus
+ * ========================================================================== */
+
+.nav ul,
+.nav ul.menu {
+  margin: 0;
+  padding: 0;
+  float: right;
+  font-size: 81.3%;
+}
+
